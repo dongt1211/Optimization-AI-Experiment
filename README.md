@@ -12,6 +12,10 @@
    bash ./set_up.bash
 ```
 
+# Create preprocessed dataset 
+```bash
+   python dataset.py
+```
 
 # Training Script Documentation
 
