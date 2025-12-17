@@ -1,3 +1,24 @@
+## Set up
+- Installing required Python packages  
+- Creating necessary folders (`input/preprocessed_dataset`, `time_monitor`)  
+- Downloading the Fashion-MNIST dataset from Kaggle  
+
+2. **Ensure Kaggle API credentials** are available at:  
+   - Linux/macOS: `~/.kaggle/kaggle.json`  
+   - Windows: `%USERPROFILE%\.kaggle\kaggle.json`  
+
+4. **Run the setup script**: bash ./set_up.bash
+5.  After completion, the folder structure will be:
+
+Optimization-AI-Experiment/
+├── input/
+│   ├── preprocessed_dataset/
+│   ├── train-images-idx3-ubyte.gz
+│   ├── train-labels-idx1-ubyte.gz
+│   ├── t10k-images-idx3-ubyte.gz
+│   └── t10k-labels-idx1-ubyte.gz
+├── time_monitor/
+└── setup_project.sh
 # Training Script Documentation
 
 This training script supports GPU acceleration, preprocessed datasets, parallel data loading, mixed precision training, and different optimizer choices.
