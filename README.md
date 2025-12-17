@@ -19,6 +19,7 @@ Optimization-AI-Experiment/
 │   └── t10k-labels-idx1-ubyte.gz
 ├── time_monitor/
 └── setup_project.sh
+
 # Training Script Documentation
 
 This training script supports GPU acceleration, preprocessed datasets, parallel data loading, mixed precision training, and different optimizer choices.
