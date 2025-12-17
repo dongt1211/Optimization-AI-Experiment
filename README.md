@@ -7,18 +7,11 @@
    - Linux/macOS: `~/.kaggle/kaggle.json`  
    - Windows: `%USERPROFILE%\.kaggle\kaggle.json`  
 
-4. **Run the setup script**: bash ./set_up.bash
-5.  After completion, the folder structure will be:
+4. **Run the setup script**:
+```bash
+   bash ./set_up.bash
+```
 
-Optimization-AI-Experiment/
-├── input/
-│   ├── preprocessed_dataset/
-│   ├── train-images-idx3-ubyte.gz
-│   ├── train-labels-idx1-ubyte.gz
-│   ├── t10k-images-idx3-ubyte.gz
-│   └── t10k-labels-idx1-ubyte.gz
-├── time_monitor/
-└── setup_project.sh
 
 # Training Script Documentation
 
