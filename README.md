@@ -30,7 +30,7 @@ python train_official.py --using_gpu True --preprocessed_dataset True --batch_si
 ## How to run for time monitor
 
 ```bash
-python -m cProfile -s train_official.py --using_gpu True --preprocessed_dataset True --batch_size 128 --parallel_dataloader True --number_of_workers 1 --mixed_precision True --optimizer AdamW > ./time_monitor With_GPU_use_detach_optimized_dataloader_num_worker=1_batch_size=128_AdamW.txt
+python -m cProfile -s time .\train_official.py --using_gpu True --prerocessed_dataset True --batch_size 64 --parrallel_dataloader True --number_of_workers 1 --mixed_precision True --optimizer SGD > ./time_monitor/Mixed_precision_training_SGD.txt 
 ```
 
 
